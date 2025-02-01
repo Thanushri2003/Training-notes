@@ -1,0 +1,57 @@
+feb 1--------normalization
+Normalization is a process of decomposing the relations into relations with fewer attributes.
+
+in 1nf-------should be atomic that is we can decompose relationship should be there.
+superkey---combination of candiate key
+
+2nf
+rule is creation of primary and non primary attribute
+should not be partially dependent--both attributes need to fetch the record
+eg student table
+
+sid   sname  projid  projectname
+
+primary key---sid,projid
+so sid,projid,sname one table
+projectid,projname
+
+3nf
+no transitive dependency
+
+superkey should be  primary key
+
+---------------------------------------------------------------------------------------------
+
+java---oops,jvm isnot plateform dependent
+java virtual machine its the interpeter
+state and behavior
+
+state is data
+method is behav
+object is the instance of the class
+A class is a template or blueprint from which objects are created.
+
+class is combination of obj and method
+class id bundle of primitives.
+constructors--initialization,bound with the object
+
+hashcode
+class members,always aero,always get the value first,they are not object,called without object
+
+prim to obj---  Integer i=new Integer(50);  
+viceversa intValue()
+
+autoboxing and unboxing
+wrapperclass----
+
+foreach----for(int i:arr1)
+scanner
+static function
+nextint,nextdouble etc
+list class
+final
+constant(c and cpp) and final(java)
+
+---------------------------------------------------------------------------------------------------
+
+
