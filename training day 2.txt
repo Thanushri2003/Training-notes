@@ -53,5 +53,7 @@ final
 constant(c and cpp) and final(java)
 
 ---------------------------------------------------------------------------------------------------
+hashcode--wil be the same if the object has the same values
+method-hashcode()
 
 
