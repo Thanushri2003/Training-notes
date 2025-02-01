@@ -55,5 +55,8 @@ constant(c and cpp) and final(java)
 ---------------------------------------------------------------------------------------------------
 hashcode--wil be the same if the object has the same values
 method-hashcode()
+double equal compare location
+s1.equals(s2) compare val
+hw----differnce between equals and equal ignore
 
 
