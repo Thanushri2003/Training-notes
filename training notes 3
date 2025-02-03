@@ -1,12 +1,30 @@
-github--clone and merge
-
+Git hub----
+push
 clone
-clone in local system
-steps---
-git branch(path)
-git checkout(path)
-git init
-git add .
-git commit -m
-git remote
-git 
+pull
+merge
+
+see the comments
+1.clone
+    create one repo,and push the files...in local system create the folder...and in gitbash config the path,username,user email
+commands--git config --global user.name ""
+          git config --global user.name ""
+          git init
+          see status---git status
+          git add .---add files
+          if to commit---git commit -m "msg"
+          push=---git push -u origin (name)
+          to clone
+              go to the git bash of the path...do all above steps then git clone -b (master/main/branch) path of repo
+2.merge/pull
+      create the branch---git branch name
+then git checkout name
+commit anything----compare and pull in github and ,merge it.
+
+----------------------------------------------------------
+java
+1.polymorphism
+2.down and up casting
+3.factory method
+4.static method and variables
+5.arrays
