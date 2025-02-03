@@ -1,0 +1,12 @@
+github--clone and merge
+
+clone
+clone in local system
+steps---
+git branch(path)
+git checkout(path)
+git init
+git add .
+git commit -m
+git remote
+git 
