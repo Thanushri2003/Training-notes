@@ -23,17 +23,19 @@ commit anything----compare and pull in github and ,merge it.
 
 ----------------------------------------------------------
 java
-
+scp(string const pool),heap
 1.polymorphism
 2.down and up casting
 3.factory method
 4.static method and variables
 5.arrays
 6.strings-concatenation
-7.string handling,hashcode,hashset,mthods
-8.
-9.
-
+7.string handling,hashcode,hashset,mthods,serializable---stream to object,comparable,charseq
+8.diff btw string buffer-one thread can update the and write operation by one,write ope is locked thread safety,slow
+string builder--
+9.string buffer,string classes
+10.abstract and interface
+11.java string class
 
 
 
