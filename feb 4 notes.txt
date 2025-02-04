@@ -1,0 +1,71 @@
+SQL
+
+create database db;
+show database;
+use db;
+create table emp(empid int,empname varchar(20));//default of size 3
+insert into emp values(1,"thanu"),(2,"sundari");//multiple insert
+
+alter table emp add primary key(empid);
+alter table emp modify(varchar name(15));
+alter table emp drop column column_name;
+
+select * from emp;
+
+alter table emp rename to employee;
+delete from emp where ....;
+truncate table emp;//records will be deleted
+drop table emp;
+
+save checkpoint,rollback,commit etc
+
+revoke delete on supp from nameofperson;
+
+create table emp(empid int not null,empname varchar(20)not null,age int check(age>=18));
+alter table emp add constraint emp_k primary key(empid);
+alter table emp disable constraint emp_k;
+alter table emp disable primary key keep index,disable unique(dname,loc) keep index;
+
+concatenation
+-------------
+
+select "the name of the emp:"||first name from emp;
+
+
+join---equi join and non equi join
+equi join----(<,>,=)
+non equi join
+
+============================================================================================================
+
+Java exceptions
+---------------
+try,catch,finally
+
+thrown from core block to handler block(catch)
+
+1.throwable
+2.exception
+3.types for exception
+
+the exception is thrown outside and stops the program
+compile time and runtime exception types:
+compile time---by the compiler at run time(try,catch)
+runtime exception----(only message)
+types of exception----javatpoint
+errors
+stack memory for temp storage,for function call.
+
+throws,throw.
+throws----main to method fun
+call by value and refernce
+strings are also objects,string functions
+handling 
+
+
+
+
+
+
+
+
