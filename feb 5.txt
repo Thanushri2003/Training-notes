@@ -1,0 +1,14 @@
+practice
+geeksforgeeks
+javatpoint
+w3 schools
+
+multithreading
+
+every request is thread
+servr is the software
+
+software
+iaas,paas,saas
+multiple process simultanenously
+
