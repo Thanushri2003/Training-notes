@@ -1,0 +1,54 @@
+collections
+-----------
+
+iterable---super class(fir iteration)
+collection-interface------------------------
+
+1.list(arraylist,linkedlist,vector-->stack),
+2.linked list,
+3.vector(thread safe-synchronized),
+  enumerator,iterator,list iterator
+
+4.stack(stores primitive datatype,temp storage),objects are stored in heap
+
+
+queue
+-----
+priority queue implements collection
+dequeue---both side open
+arraydeque
+
+set(no duplicate)
+---
+hashset
+linkedhash
+
+sortedset--treeset
+collection.sort(comparable)
+collectios--class
+
+
+list<dtatypes> lst1=arraylist);
+
+oject and classes
+arraylist---programs(NOT THREAD SAFETY)
+linkedlist program(NOT THREAD SAFETY)
+vector program(THREAD SAFETY)
+stack program(NOT THREAD SAFETY)
+queue,dequeue(element,getlast,length,poll,peek,push functions)
+priority queue(programs-offer,peek,poll,element,add functions)
+hashset--not ordered,values are unique
+linkedhashset
+treeset----ascen and decen(use comparator,implements comparator compare methos(override))
+
+https://angular.dev/reference/versions  ===angular
+npm install -g @angular/cli@19 ==version
+
+utility classes---medium.com
+
+make the class comparable
+override the compareto method
+call with collection.sort
+all wrapper class are comparable--no need to override compareto method
+
+collection,strings,normalization all 4.
