@@ -1,0 +1,37 @@
+input/output console
+scanner----for user input at run time
+1.nextInt()
+2.nextLine()
+3.nextFloat()
+
+stream---more secure transfer from one end to other
+arg is string array it is array of objects
+
+streams in import.java.io.*; package
+//input
+functions-----FileInputStream fin=new FileInputStream("path");
+	      fin.read()(for reading)
+
+//output
+byte b1]=str.getBytes();
+File object=new file("")
+FileOutputStream fo=new FileOutputStream(object,true);
+fo.write(b1);
+fo.write('\n');
+fo.close();
+
+//reader
+FileReader fr=new FileReader("path")
+fr.read()
+fr.close();
+
+buffer---processing time is less,char read andplaced to the buffer
+hw-read from text write to another text file
+
+=======================================================================
+jdbc-java databse connectivity--tutorials point
+4 interface-connection,statement,resultset,preparestatement
+meta data-
+driver-to establish connecton,
+
+
