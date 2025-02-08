@@ -1,0 +1,6 @@
+lambda nad string api collections
+java 1.8 library
+
+functional interface
+runnable,callable,comparable,comparator
+https://www.javainuse.com/quiz/js
