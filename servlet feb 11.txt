@@ -1,0 +1,51 @@
+SERVELTS-tpoint
+--------
+tech. used to create the web app in server side,mvc,res to the incoming req,
+
+UI LAYER-VIEW
+MIDDLE LAYER-CONTROLLER LAYER/PROCESING LAYER(SERVELTS AND JSP WE WRITE THE FUNTIONALITIES)
+DATABSE LAYER(MODEL CREATION)
+
+FOR CONFIGURATION OF MIDDLE LAYER
+-------------------------------
+TOMCAT IS USED
+
+setup
+-----
+all the servlets in javaresources
+all the ui files .html in webapp
+
+
+eclipse,new,dynamic web,name the file,select the tomcat version,next,next,check the box for generate web.xml,finish,then go to server then,click the project add,then finish,right click on the server,start it
+then in web search.
+
+when the client send req to servlet,that is url(address)uniform resource locater,
+we write the method in services where we have doget-read,dopost-write,dodelete etc... https methods
+
+annotation can be given in 2 forms:
+url pattern/servlets
+
+topic
+-----
+req,resp is generated,resp sent to client
+catelina for servlet container(name)
+jasper for jsp container(name)
+
+creation of servlet
+-------------------
+1.extend httpservlet(sub class)---(httpservletreq,httpservletresp)
+2.generic servlet is supermost class-methods(int,service,destroy)life cycle methods should override,(dopost,doget,dodelete)
+int---initailization
+generic servlet extend--(servletReq,servletRes)
+
+3.
+
+
+servlet info in web.xml file or file wont run----servlet mapping in webapp 
+
+servlet config(for configuration)and context 2 object ae created along with the servlet obj but empty,if data is passed in int param use the genericservlet .
+get the value passed thorugh the web.xml and store it in servletconfig object.use service function we can use it...no need ofindex run servlet.
+
+
+
+
